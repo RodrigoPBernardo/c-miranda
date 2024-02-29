@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogos - CMIRANDA - Equipamentos Escolares | Mobiliário Escolar</title>
+    <meta name="keywords" content="equipamentos escolares, móveis para escolas, mobiliário para creches, armários para escola, cadeiras de plástico, cadeiras escolares, cadeiras polipropileno, catre empilhável, equipamentos escolares, material didáctico para creches, material didáctico para escolas, material didáctico para jardins de infância, material escolar, mesas escolares, mobiliário escolar, mobiliário para refeitórios, móveis para escolas">
+    <link rel="icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a19c7630f0.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js" defer></script>
+    <script src="../js/material-didatico-lang.js" defer></script>
+</head>
+<body>
+    <nav class="navbar desktop-navbar">
+        <img src="../assets/logo.jpg" alt="logo" onclick="redirectToHomePage()">
+        <ul class="navbar-items">
+            <li class="item" id="home"><a href="../index.html">Home</a></li>
+            <li class="item" id="sobreNos"><a href="about-us.html">Sobre Nós</a></li>
+            <li class="item" id="catalogos"><a href="catalogs.html">Catálogos</a></li>
+            <li class="item" id="novidades"><a href="news.html">Novidades</a></li>
+            <li class="item" id="contactos"><a href="contacts.html">Contactos</a></li>
+            <li>
+                <div class="flags">
+                    <img src="../assets/portugal-flag.jpg" alt="Bandeira Portuguesa" class="language-flag selected-flag" onclick="changeLanguage('pt')">
+                    <img src="../assets/france-flag.png" alt="Bandeira Francesa" class="language-flag" onclick="changeLanguage('fr')">
+                    <img src="../assets/uk-flag.png" alt="Bandeira Reino Unido" class="language-flag" onclick="changeLanguage('en')">
+                    <img src="../assets/spain-flag.png" alt="Bandeira Espanhola" class="language-flag" onclick="changeLanguage('es')">
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <nav class="navbar mobile-navbar">
+        <img src="../assets/logo.jpg" alt="logo">
+        <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="navbar-items mobile-menu">
+            <li class="item" id="homeMobile"><a href="../index.html">Home</a></li>
+            <li class="item" id="sobreNosMobile"><a href="about-us.html">Sobre Nós</a></li>
+            <li class="item" id="catalogosMobile"><a href="catalogs.html">Catálogos</a></li>
+            <li class="item" id="novidadesMobile"><a href="news.html">Novidades</a></li>
+            <li class="item" id="contactosMobile"><a href="contacts.html">Contactos</a></li>
+            <li>
+                <div class="flags">
+                    <img src="../assets/portugal-flag.jpg" alt="Bandeira Portuguesa" class="language-flag selected-flag" onclick="changeLanguage('pt')">
+                    <img src="../assets/france-flag.png" alt="Bandeira Francesa" class="language-flag" onclick="changeLanguage('fr')">
+                    <img src="../assets/uk-flag.png" alt="Bandeira Reino Unido" class="language-flag" onclick="changeLanguage('en')">
+                    <img src="../assets/spain-flag.png" alt="Bandeira Espanhola" class="language-flag" onclick="changeLanguage('es')">
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <section class="card-section" id="materialDidatico">
+        <h2 class="section-title" id="tituloMaterialDidatico">Material Didático</h2>
+        <div class="card-container">
+            <div class="card">
+                <a href="https://bo3.onlinebiz.pt/cmiranda/_files/cmiranda-sala-de-aula-lugares-individuais-02023-CBZ2P20230703102848.pdf" target="_blank">
+                    <img src="../assets/material-didatico.jpg" alt="Mobiliario Escolar 1">
+                </a>
+                <p id="materialDidatico1">Exemplo 1</p>
+            </div>
+            <div class="card">
+                <a href="https://bo3.onlinebiz.pt/cmiranda/_files/cmiranda-sala-de-aula-lugares-individuais-02023-CBZ2P20230703102848.pdf" target="_blank">
+                    <img src="../assets/material-didatico.jpg" alt="Mobiliario Escolar 2">
+                </a>
+                <p id="materialDidatico2">Exemplo 2</p>
+            </div>
+            <div class="card">
+                <a href="https://bo3.onlinebiz.pt/cmiranda/_files/cmiranda-sala-de-aula-lugares-individuais-02023-CBZ2P20230703102848.pdf" target="_blank">
+                    <img src="../assets/material-didatico.jpg" alt="Mobiliario Escolar 3">
+                </a>
+                <p id="materialDidatico3">Exemplo 3</p>
+            </div>
+            <div class="card">
+                <a href="https://bo3.onlinebiz.pt/cmiranda/_files/cmiranda-sala-de-aula-lugares-individuais-02023-CBZ2P20230703102848.pdf" target="_blank">
+                    <img src="../assets/material-didatico.jpg" alt="Mobiliario Escolar 4">
+                </a>
+                <p id="materialDidatico4">Exemplo 4</p>
+            </div>
+        </div>
+        <a href="catalogs.html" class="back-button" id="voltar">Voltar</a>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Rua Raquel Roque Gameiro, Nº 4-A 1500-540 LISBOA</p>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>(+351) 217 783 125</p>
+                </div>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>geral@cmiranda.com</p>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/CMiranda.lda/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <p><a href="https://www.facebook.com/CMiranda.lda/" target="_blank" id="siga">Siga-nos!</a></p>
+                </div>
+            </div>
+            <div class="links">
+                <a href="politica-privacidade.html" target="_blank" id="politicaPrivacidade">Política de Privacidade</a>
+                <a href="livro-reclamacoes.html" target="_blank" id="livroReclamacoes">Livro de Reclamações</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="copyright">CMIRANDA Copyright 2024 - Todos os direitos reservados</span></p>
+        </div>
+    </footer>
+</body>
+</html>

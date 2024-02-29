@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1000px) {
+    .desktop-navbar {
+        display: none;
+    }
+
+    .mobile-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10px;
+        background-color: #fff; 
+        margin: auto;
+    }
+
+    .mobile-navbar .navbar-items {
+        position: fixed;
+    }
+    
+
+    .mobile-navbar img{
+        width: 40%;
+    }
+
+    .mobile-navbar .navbar-items {
+        display: none;
+    }
+
+    .mobile-navbar .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-navbar .navbar-items.show {
+        display: flex;
+    }
+
+    .flags{
+        width: 100px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
+    .container {
+        flex-direction: column; 
+        align-items: center;
+        height: auto;
+    }
+
+    .article {
+        width: 90%; 
+        order: 2;
+        margin-bottom: 20px; 
+    }
+    #aside {
+        width: 90%; 
+        order: 1; 
+    }
+
+    .article-title {
+        font-size: 24px; 
+        margin-bottom: 15px; 
+        text-align: center;
+    }
+
+    .first-paragraph,
+    .second-paragraph {
+        font-size: 16px; 
+        text-align: justify; 
+    }
+    .leaders-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leaders-images img {
+        max-width: 80%; 
+        margin-bottom: 30px; /
+    }
+    #catalogs, #news, #contacts {
+        text-align: center; 
+        margin: 30px auto;
+        width: 90%; 
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%; 
+        margin: auto;
+    }
+
+    .view-all-btn {
+        margin-top: 20px; 
+    }
+
+    #news {
+        text-align: center;
+    }
+
+    .contact-container {
+        width: 100%; 
+        margin: 20px auto;
+    }
+
+    form {
+        width: 100%; 
+        margin: 20px auto;
+    }
+
+    form label {
+        text-align: left; 
+    }
+
+    .contact-info-seller {
+        margin-bottom: 30px; 
+    }
+
+    .announcement-bar {
+        height: auto;
+        margin: 50px auto; 
+    }
+
+    footer {
+        text-align: center;
+        margin: 50px auto 0 auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-info,
+    .links {
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .contact-info {
+        margin-left: 0;
+    }
+    
+    .links a {
+        margin: 10px auto; 
+    }}
